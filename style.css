@@ -1,0 +1,132 @@
+/* @font-face { font-family: Gilroy; font-weight: 900; font-style: normal; src: url(../fonts/Gilroy/Gilroy-Black.eot); src: url(../fonts/Gilroy/Gilroy-Black.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy/Gilroy-Black.woff) format("woff"), url(../fonts/Gilroy/Gilroy-Black.woff2) format("woff2"), url(../fonts/Gilroy/Gilroy-Black.ttf) format("truetype") } */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    /* background: rgba(217, 217, 217, 0.3); */
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 84px;
+    position: relative;
+    left: -110px;
+}
+
+#logo {
+    margin-right: 14px;
+}
+
+#logo-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo-header {
+    position:relative;
+    margin-right: 400px;
+}
+
+.nav {
+    margin-bottom: 12px;
+    margin-top: 12px;
+    
+}
+
+#nav_1 {
+    color: #F25822;
+}
+
+.nav-link {
+    
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    
+}
+
+.content {
+    
+    padding-bottom: 0.45px;
+    margin-bottom: 162px;
+    margin-left: 373px;
+    margin-right: 439.25px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    padding-top: 1.29px;
+    width: 522px;
+    margin-right: 39px;
+    
+}
+
+.content-right {
+    padding-bottom: 0.45px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.sub {
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    width: 430px;
+    margin-bottom: 37px;
+}
+
+.content-btn {
+    display: flex;
+    width: 302px;
+}
+
+.btn {
+    /* position: absolute; */
+    width: 140px;
+    height: 50px;
+    margin-right: 72px;
+    padding: 15px 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-link {
+    margin-top: 21px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.logotypes {
+    display: flex;
+    justify-content: center;
+    margin: 97px 375px 97px 345px;
+}
+
+.logocard {
+    margin-right: 48px;
+}
