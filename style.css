@@ -135,7 +135,8 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 48px;
-    margin-top: 97px;
+    margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 /* .logocard {
